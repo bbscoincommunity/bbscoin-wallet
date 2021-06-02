@@ -13,9 +13,9 @@ make
 ## Ubuntu
 ```
 sudo apt-get install build-essential libboost-all-dev git cmake qtbase5-dev
-git clone https://github.com/bbscoin/bbscoin.git
+git clone https://github.com/bbscoincommunity/bbscoin.git
 cd ..
-git clone https://github.com/bbscoin/bbscoin-wallet.git
+git clone https://github.com/bbscoincommunity/bbscoin-wallet.git
 cd bbscoin-wallet
 ln -s ../bbscoin/ cryptonote
 mkdir build && cd build
@@ -28,7 +28,7 @@ make
 Clone the bbscoin first,
 
 ```
-git clone https://github.com/bbscoin/bbscoin.git bbscoin
+git clone https://github.com/bbscoincommunity/bbscoin.git bbscoin
 ```
 
 Now, you should compile the BBSCoin dynamic libs first.
